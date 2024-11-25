@@ -12,6 +12,6 @@ public class Ropa extends Pedidos{
     }
     @Override
     public void datosDestinatario(String nombre, String apellidos, int telefono, String direccion){
-        System.out.println("Destinatario de la ropa:" + "\n- Nombre: " + nombre + "\n- Apellidos: " + apellidos + "\n- Teléfono: " + telefono + "\n- Dirección: " + direccion + "\n");
+        System.out.println("Destinatario de la ropa:" + "\n- Nombre: " + nombre + "\n- Apellidos: " + apellidos + "\n- Teléfono: " + telefono + "\n- Dirección: " + direccion);
     }
 }

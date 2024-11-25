@@ -6,4 +6,7 @@ abstract class Pedidos {
     public abstract void seleccionarProducto(String producto);
     public abstract void precioProducto(double precio);
     public abstract void datosDestinatario(String nombre, String apellidos, int telefono, String direccion);
+    public void metodoPago(){
+        metodosPago.pagar();
+    }
 }
